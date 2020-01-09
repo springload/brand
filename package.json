@@ -14,7 +14,8 @@
     "test": "jest",
     "prebuild": "rm -rf dist && mkdir dist",
     "build": "./build",
-    "postbuild": "prettier \"dist/*\" --write"
+    "postbuild": "prettier \"dist/*\" --write",
+    "prepublishOnly": "yarn test && yarn build"
   },
   "dependencies": {
     "jest": "^24.9.0"
