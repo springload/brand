@@ -39,7 +39,19 @@ describe("createCSSVariablesFromObject", () => {
 			})
 		).toEqual(
 			`--colorGreen: #00FF00;
+
 --themesDarkColorText: #FFFFFF;`
 		);
+	});
+
+	it("uses the optional symbol argument if provided", () => {
+		expect(
+			createCSSVariablesFromObject(
+				{
+					colorGreen: "#00FF00"
+				},
+				"$"
+			)
+		).toEqual(`$colorGreen: #00FF00;`);
 	});
 });
