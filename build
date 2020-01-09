@@ -12,5 +12,9 @@ const themesJSON = JSON.stringify(themes, null, 2);
 fs.writeFileSync(path.resolve(distDir, "themes.json"), themesJSON);
 
 /* Create a CSS file. */
-const themesCSS = createCSSVariablesFromObject(themes);
+const themesCSS = createCSSVariablesFromObject(themes, "--");
 fs.writeFileSync(path.resolve(distDir, "themes.css"), `:root {${themesCSS}}`);
+
+/* Create a SASS file. */
+const themesSASS = createCSSVariablesFromObject(themes, "$");
+fs.writeFileSync(path.resolve(distDir, "themes.scss"), `${themesSASS}`);
