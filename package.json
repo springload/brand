@@ -1,0 +1,15 @@
+{
+  "name": "springload-themes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mitch@springload.co.nz",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "polished": "^3.4.2",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "build": "./build"
+  }
+}
