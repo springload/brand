@@ -7,14 +7,5 @@ const distDir = path.resolve(process.cwd(), 'dist');
 
 const themesJSON = JSON.stringify(themes, null, 2);
 
-try {
-	fs.mkdirSync(distDir);
-} catch (error) {
-	// We want to continue if the mkdirsync only failed because the directory existed.
-	if (error.code !== "EEXIST") {
-		throw error;
-	}
-}
-
 /* Create a JSON file. */
 fs.writeFileSync(path.resolve(distDir, "themes.json"), themesJSON);
