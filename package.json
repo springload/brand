@@ -21,6 +21,7 @@
   "dependencies": {
     "jest": "^24.9.0"
   },
+  "private": false,
   "files": [
     "dist/**/*"
   ]
