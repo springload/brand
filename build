@@ -3,8 +3,8 @@
 const themes = require("./themes.js");
 const fs = require("fs");
 const path = require("path");
-const distDir = path.resolve(process.cwd(), 'dist');
-const createCSSVariablesFromObject  = require('./src/createCSSVariablesFromObject');
+const distDir = path.resolve(process.cwd(), "dist");
+const createCSSVariablesFromObject = require("./src/createCSSVariablesFromObject");
 
 const themesJSON = JSON.stringify(themes, null, 2);
 

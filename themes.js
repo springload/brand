@@ -33,48 +33,48 @@ module.exports.colorBlackOpacity01 = "rgba(0, 0, 0, 0.1)";
 // Themes
 // =============================================================================
 module.exports.themes = {
-    dark: {
-        colorTheme: module.exports.colorGreyDark,
-        colorText: module.exports.colorWhite,
-        colorSprout: module.exports.colorGreen,
-        colorSproutLinkHover: module.exports.colorWhite,
-        colorOutline: module.exports.colorGreen
-    },
-    white: {
-        colorTheme: module.exports.colorWhite,
-        colorText: module.exports.colorGreyDark,
-        colorLink: module.exports.colorGreen,
-        colorSprout: module.exports.colorGreyDark,
-        colorSproutLinkHover: module.exports.colorGreyWarm,
-        colorOutline: module.exports.colorGreen
-    },
-    green: {
-        colorTheme: module.exports.colorGreen,
-        colorText: module.exports.colorWhite,
-        colorSprout: module.exports.colorWhite,
-        colorSproutLinkHover: module.exports.colorBlack,
-        colorOutline: module.exports.colorWhite
-    },
-    green2: {
-        colorTheme: module.exports.colorGreen,
-        colorText: module.exports.colorWhite,
-        colorLink: module.exports.colorBlack,
-        colorSprout: module.exports.colorWhite,
-        colorSproutLinkHover: module.exports.colorBlack,
-        colorOutline: module.exports.colorWhite
-    },
-    grey: {
-        colorTheme: module.exports.colorGreyLight,
-        colorText: module.exports.colorGreyDark,
-        colorSprout: module.exports.colorGreyDark,
-        colorSproutLinkHover: module.exports.colorGreyWarm,
-        colorOutline: module.exports.colorGreen
-    },
-    lightgrey: {
-        colorTheme: module.exports.colorGreyLight,
-        colorText: module.exports.colorGreyDark,
-        colorSprout: module.exports.colorGreyLight,
-        colorSproutLinkHover: module.exports.colorGreen,
-        colorOutline: module.exports.colorGreen
-    }
+  dark: {
+    colorTheme: module.exports.colorGreyDark,
+    colorText: module.exports.colorWhite,
+    colorSprout: module.exports.colorGreen,
+    colorSproutLinkHover: module.exports.colorWhite,
+    colorOutline: module.exports.colorGreen
+  },
+  white: {
+    colorTheme: module.exports.colorWhite,
+    colorText: module.exports.colorGreyDark,
+    colorLink: module.exports.colorGreen,
+    colorSprout: module.exports.colorGreyDark,
+    colorSproutLinkHover: module.exports.colorGreyWarm,
+    colorOutline: module.exports.colorGreen
+  },
+  green: {
+    colorTheme: module.exports.colorGreen,
+    colorText: module.exports.colorWhite,
+    colorSprout: module.exports.colorWhite,
+    colorSproutLinkHover: module.exports.colorBlack,
+    colorOutline: module.exports.colorWhite
+  },
+  green2: {
+    colorTheme: module.exports.colorGreen,
+    colorText: module.exports.colorWhite,
+    colorLink: module.exports.colorBlack,
+    colorSprout: module.exports.colorWhite,
+    colorSproutLinkHover: module.exports.colorBlack,
+    colorOutline: module.exports.colorWhite
+  },
+  grey: {
+    colorTheme: module.exports.colorGreyLight,
+    colorText: module.exports.colorGreyDark,
+    colorSprout: module.exports.colorGreyDark,
+    colorSproutLinkHover: module.exports.colorGreyWarm,
+    colorOutline: module.exports.colorGreen
+  },
+  lightgrey: {
+    colorTheme: module.exports.colorGreyLight,
+    colorText: module.exports.colorGreyDark,
+    colorSprout: module.exports.colorGreyLight,
+    colorSproutLinkHover: module.exports.colorGreen,
+    colorOutline: module.exports.colorGreen
+  }
 };
