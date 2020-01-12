@@ -1,0 +1,66 @@
+{
+  "colorGreen": "#57bd84",
+  "colorGreenHighlight": "#69c491",
+  "colorGreenShadow": "#47b477",
+  "colorRed": "#d0031c",
+  "colorBlack": "#000",
+  "colorWhite": "#fff",
+  "colorGreyDark": "#2f2f2f",
+  "colorGreyMedium": "#828282",
+  "colorGreyLight": "#ebebeb",
+  "colorGreyWarm": "#9b9b9b",
+  "colorPageText": "#fff",
+  "colorPageLinks": "inherit",
+  "colorPageBackground": "#57bd84",
+  "colorImageBackground": "#e8e8e8",
+  "colorFocus": "#6cc6ee",
+  "colorSelect": "#e5e5e5",
+  "colorWhiteOpacity01": "rgba(255, 255, 255, 0.1)",
+  "colorBlackOpacity01": "rgba(0, 0, 0, 0.1)",
+  "themes": {
+    "dark": {
+      "colorTheme": "#2f2f2f",
+      "colorText": "#fff",
+      "colorSprout": "#57bd84",
+      "colorSproutLinkHover": "#fff",
+      "colorOutline": "#57bd84"
+    },
+    "white": {
+      "colorTheme": "#fff",
+      "colorText": "#2f2f2f",
+      "colorLink": "#57bd84",
+      "colorSprout": "#2f2f2f",
+      "colorSproutLinkHover": "#9b9b9b",
+      "colorOutline": "#57bd84"
+    },
+    "green": {
+      "colorTheme": "#57bd84",
+      "colorText": "#fff",
+      "colorSprout": "#fff",
+      "colorSproutLinkHover": "#000",
+      "colorOutline": "#fff"
+    },
+    "green2": {
+      "colorTheme": "#57bd84",
+      "colorText": "#fff",
+      "colorLink": "#000",
+      "colorSprout": "#fff",
+      "colorSproutLinkHover": "#000",
+      "colorOutline": "#fff"
+    },
+    "grey": {
+      "colorTheme": "#ebebeb",
+      "colorText": "#2f2f2f",
+      "colorSprout": "#2f2f2f",
+      "colorSproutLinkHover": "#9b9b9b",
+      "colorOutline": "#57bd84"
+    },
+    "lightgrey": {
+      "colorTheme": "#ebebeb",
+      "colorText": "#2f2f2f",
+      "colorSprout": "#ebebeb",
+      "colorSproutLinkHover": "#57bd84",
+      "colorOutline": "#57bd84"
+    }
+  }
+}
