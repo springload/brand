@@ -8,12 +8,14 @@
     "@types/node": "^13.1.6",
     "lodash": "^4.17.15",
     "polished": "^3.4.2",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "svgo": "^1.3.2"
   },
   "scripts": {
     "test": "jest",
     "prebuild": "rm -rf dist && mkdir dist",
-    "build": "./build",
+    "build": "yarn build:logos && ./build",
+    "build:logos": "cp -r src/logos/ dist/logos/ && yarn svgo dist/logos --disable=removeViewBox --enable=prefixIds",
     "postbuild": "prettier \"dist/*\" --write",
     "preversion": "yarn test && yarn build && git add dist/*",
     "postversion": "git push --tags"
