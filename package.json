@@ -5,6 +5,7 @@
   "author": "mitch@springload.co.nz",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@svgr/cli": "^5.0.1",
     "@types/node": "^13.1.6",
     "jest": "^24.9.0",
     "lodash": "^4.17.15",
@@ -16,7 +17,7 @@
     "test": "jest",
     "prebuild": "rm -rf dist && mkdir dist",
     "build": "yarn build:logos && ./build",
-    "build:logos": "cp -r src/logos/ dist/logos/ && yarn svgo dist/logos --disable=removeViewBox --enable=prefixIds",
+    "build:logos": "cp -r src/logos/ dist/logos/ && yarn svgo dist/logos --disable=removeViewBox --enable=prefixIds && yarn svgr -d dist/logos dist/logos",
     "postbuild": "prettier \"dist/*\" --write",
     "preversion": "yarn test && yarn build && git add dist/*",
     "postversion": "git push --tags"
