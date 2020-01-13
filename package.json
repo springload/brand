@@ -6,6 +6,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@types/node": "^13.1.6",
+    "jest": "^24.9.0",
     "lodash": "^4.17.15",
     "polished": "^3.4.2",
     "prettier": "^1.19.1",
@@ -19,9 +20,6 @@
     "postbuild": "prettier \"dist/*\" --write",
     "preversion": "yarn test && yarn build && git add dist/*",
     "postversion": "git push --tags"
-  },
-  "dependencies": {
-    "jest": "^24.9.0"
   },
   "private": false,
   "files": [
